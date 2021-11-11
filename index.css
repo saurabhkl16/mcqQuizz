@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(main/images/background.jpg);
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-around;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    
+}
+
+nav .left{
+    display: flex;
+    
+}
+
+nav .left h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+
+.btn{
+    padding: 7px 15px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    border-color: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+.sign-in{
+    display: flex;
+
+}
+
+
+
+.signin-left{
+    width: 50%;
+
+
+}
+
+
+
+.signin-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.signin-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    columns: red;
+    border-radius: 10%;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    box-shadow: 5px 5px  gray;
+    
+}
+
+.signin-box input{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+.signin-box .txt{
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.signin-box .signin{
+    margin: 20px 10px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+}
+.signin #login-icon{
+    margin-bottom: 10px;
+}
+.signin:hover{
+    background-color: rgb(0, 255, 213);
+
+}
+.imp{
+    color: red;
+    font-weight: bold;
+}
+.gl{
+    color:yellow;
+    font-weight: bold;
+}
+.gl:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+}

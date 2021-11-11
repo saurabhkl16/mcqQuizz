@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(main/images/background.jpg);
+    
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-around;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    
+}
+
+nav .left{
+    display: flex;
+    
+}
+
+nav .left h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.btn{
+    padding: 7px 15px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    border-color: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+#gelog{
+    background-color: red;
+}
+
+
+/* Grid continer  */
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 255, 13);
+    margin-bottom: 5px;
+}
+
+.heading h1{
+    font-family: 'Righteous', cursive;
+}
+.heading h4{
+    color:red;
+}
+
+.grid-cont{
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px    ;
+    height: 90vh;
+    width: 100vw;
+}
+.grid-cont .box{
+background-color:white;
+box-shadow: 2px 2px 2px 3px black;
+text-align: center;
+padding-top: 50px;
+}
+
+.grid-cont .box p{
+    padding: 10px 0px 10px 0px;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.grid-cont .box .soon{
+    color: red;
+
+}
+.grid-cont .box .soon:hover{
+    color:black;
+}
+.grid-cont .box .btn-sq{
+    background-color: rgb(7, 236, 7);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.grid-cont .box .btn-sq:hover{
+    background-color: aqua;
+}
+
+
+/* footer  */
+
+
+
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+
+footer p span{
+    color: red;
+}
+
